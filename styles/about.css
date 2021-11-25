@@ -1,0 +1,24 @@
+.nav-link1 {
+  font-family: '../../public/assets/Helv Kaz.ttf';
+  font-size: large;
+  margin-top: 10px;
+  color: #dadada;
+  background: linear-gradient(to top, #552ab8, #140829);
+  box-shadow: 5px 5px 20px black;
+  text-shadow: 1px 5px 10px #07030c;
+}
+
+.nav-link1:hover {
+  background: #41006d;
+  animation: scale(1.1);
+  box-shadow: 2px 2px 10px black;
+  color: #ffffff;
+  text-shadow: -1px -2px -10px #552ab8;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  margin-top: 55px;
+}

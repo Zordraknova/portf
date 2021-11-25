@@ -1,0 +1,60 @@
+.navbar {
+    background: linear-gradient(to top, #52009e, #140829);
+    box-shadow: 5px 5px 20px black;
+    transition: top 0.6s;
+
+
+}
+
+.scrollable-menu{
+    height: 70vh;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow: scroll;
+}
+
+.scrollable-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+.scrollable-menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: lightgray;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+}
+
+.logo-app {
+
+    margin-left: -10 !important;
+    -webkit-filter: drop-shadow(5px 10px 10px#07030c);
+    filter: drop-shadow(5px 5px 5px #07030c);
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    font-family: '../../public/assets/Gabriela-Regular.ttf';
+    text-shadow: 1px 5px 10px #07030c;
+}
+
+.nav-item {
+    font-size: 20px;
+    font-family: Source Sans Pro;
+    color: #0e005a;
+    font-weight: normal;
+}
+
+.nav-item --active {
+    color: #e6e6e6;
+    background-color: #5ea8f3;
+    transition: 200ms;
+
+}
+
+.nav-item:hover {
+    color: #41006d;
+}
+
+.navbar--hidden {
+    top: -50px;
+}
+
