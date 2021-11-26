@@ -35,6 +35,20 @@
     font-family: '../../public/assets/Gabriela-Regular.ttf';
     text-shadow: 1px 5px 10px #07030c;
 }
+.navbar-brand:active {
+    margin-left: 10px;
+    font-family: '../../public/assets/Gabriela-Regular.ttf';
+    /* text-shadow: 1px 5px 10px #07030c; */
+    text-shadow: 0px 0px 5px rgb(95, 85, 241),
+    0px 0px 10px rgb(95, 85, 241),
+    0px 0px 50px rgb(95, 85, 241),
+    0px 0px 100px rgb(95, 85, 241);
+color: #ffffff;
+text-shadow: -1px -2px -10px #552ab8;
+-webkit-box-reflect: below 1px linear-gradient(transition, #552ab8);
+-webkit-transition: all 0.5s;
+transition: all 0.3s;
+}
 
 .nav-item {
     font-size: 20px;
