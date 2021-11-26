@@ -52,4 +52,6 @@ img:hover{
   transform: scale(1.02);
   box-shadow: 2px 2px 10px rgba(63, 85, 92, 0.158);
   z-index: -1000;
+
 }
+
