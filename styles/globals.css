@@ -20,6 +20,7 @@ p{
   color:rgb(247, 203, 247);
   font-family: '/assets/Gabriela-Regular.ttf';
   font-size: 1.2rem;
+  text-shadow: 1px 1px 4px #00000080;
 }
 
 @font-face {
@@ -33,10 +34,12 @@ p{
 h1{
   font-family: '../assets/Gabriela-Regular.ttf';
   color:lightgray ;
+  text-shadow: 1px 1px 4px #00000080;
 }
 
 h2{
   color:  #41006d;
+  text-shadow: 1px 1px 4px #00000080;
 }
 
 img {

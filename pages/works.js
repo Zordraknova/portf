@@ -1,7 +1,5 @@
 let PLID = "PL_bFnI4QqU3fGD4LOMDmmlbPrXo79pmRU";
-
 import Head from 'next/head';
-import Image from 'next/image'
 import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
 import React, { Component } from 'react';
@@ -22,14 +20,14 @@ export default function Eco({ data }) {
   return (
 
     <div
- style={{
-                backgroundImage:
-                    "url(" + `${require("../public/background.jpg")}` + ")",
-                width: "100%",
-                height: "100%",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-            }}
+//  style={{
+//                 backgroundImage:
+//                     "url(" + `{require("../image/background.jpg")}` + ")",
+//                 width: "100%",
+//                 height: "100%",
+//                 backgroundRepeat: "no-repeat",
+//                 backgroundSize: "cover",
+//             }}
 >
 
 

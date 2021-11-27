@@ -13,6 +13,8 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 
+
+
 const divStyle = {
   marginLeft: "10px",
 };
@@ -23,16 +25,21 @@ const divStyle2 = {
 
 function Feed({ data }) {
   return (
-    <div
- style={{
-                backgroundImage:
-                    "url(" + `${require("../public/background2.jpg")}` + ")",
-                width: "100%",
-                height: "100%",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-            }}
->
+    <div className="wrapper"
+      // style={{
+      //   backgroundImage:
+      //   url({"../public/static/background.jpg"}),
+      //   width: "100%",
+      //   height: "100%",
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundSize: "cover",
+      // }}
+    //       style={{
+    //   backgroundImage: "url(../public/static/background.jpg)",
+    //   height: "300px",
+    //   backgroundRepeat: "no-repeat"
+    // }}
+    >
 
       <Head>
         <title>Novel</title>
@@ -83,21 +90,21 @@ function Feed({ data }) {
                     />
                     <p className="mt-3 text-center font-weight-bold ">
 
-                       Привет! Меня зовут Роман.Профессионально занимаюсь видеомонтажом
-                       с 2017 года (а непрофессионально с 2010) Работаю в
-                    Adobe After Effect, Photoshop, Premiere Pro, Illustrator,
-                    Audition, 3DS Max. В планах изучить SideFX Houdini.
-                    Имею навыки в web-разработке на javascript, в частности под nodejs
-                    (да, этот сайт написал тоже я).
-                       Координировал график съемок с актерами и съемочной группой,
-                    и работал с задачами пост-продакшена, такими как просмотр
-                    отснятого материала, принятие редакционных решений, черновые версии,
-                    корректировка звука, цветокоррекция и окончательное редактирование.
-                       Работал с заказчиками над сборкой необработанных изображений,
-                    видеоматериалов и сценариев в готовый продукт для рынка социальных сетей.
-                     Создавал визуальные эффекты для пост-обработки (Photoshop, After Effects,
-                    Premiere Pro), чтобы сформировать логичную, впечатляющую сюжетную линию
-                    в конечном итоге
+                      Привет! Меня зовут Роман.Профессионально занимаюсь видеомонтажом
+                      с 2017 года (а непрофессионально с 2010) Работаю в
+                      Adobe After Effect, Photoshop, Premiere Pro, Illustrator,
+                      Audition, 3DS Max. В планах изучить SideFX Houdini.
+                      Имею навыки в web-разработке на javascript, в частности под nodejs
+                      (да, этот сайт написал тоже я).
+                      Координировал график съемок с актерами и съемочной группой,
+                      и работал с задачами пост-продакшена, такими как просмотр
+                      отснятого материала, принятие редакционных решений, черновые версии,
+                      корректировка звука, цветокоррекция и окончательное редактирование.
+                      Работал с заказчиками над сборкой необработанных изображений,
+                      видеоматериалов и сценариев в готовый продукт для рынка социальных сетей.
+                      Создавал визуальные эффекты для пост-обработки (Photoshop, After Effects,
+                      Premiere Pro), чтобы сформировать логичную, впечатляющую сюжетную линию
+                      в конечном итоге
 
                     </p>
                   </Tab.Pane>
@@ -192,49 +199,49 @@ function Feed({ data }) {
                   {/* //______________________________________________________________________________________________________________________ */}
                   <Tab.Pane eventKey="four" className=" text-center">
                     {/* <Container> */}
-                      {/* <Row> */}
-                        <Col className=" text-center ">
-                          <div>
-                            <img
-                              src="/static/web10.jpg"
-                              className="img-fluid"
-                              alt="img"
-                              width={680}
-                              height={450}
-                            />
-                          </div>
-                          <div className="text-center mt-5 offset-md">
-                            <img
-                              src="/static/web20.jpg"
-                              className="img-fluid"
-                              alt="img"
-                              width={680}
-                              height={450}
-                            />
-                          </div>
-                          </Col>
-<Col>
-                          <div className="text-center mt-5 offset-md">
-                            <img
-                              src="/static/web30.jpg"
-                              className="img-fluid"
-                              alt="img"
-                              width={680}
-                              height={450}
-                            />
-                          </div>
+                    {/* <Row> */}
+                    <Col className=" text-center ">
+                      <div>
+                        <img
+                          src="/static/web10.jpg"
+                          className="img-fluid"
+                          alt="img"
+                          width={680}
+                          height={450}
+                        />
+                      </div>
+                      <div className="text-center mt-5 offset-md">
+                        <img
+                          src="/static/web20.jpg"
+                          className="img-fluid"
+                          alt="img"
+                          width={680}
+                          height={450}
+                        />
+                      </div>
+                    </Col>
+                    <Col>
+                      <div className="text-center mt-5 offset-md">
+                        <img
+                          src="/static/web30.jpg"
+                          className="img-fluid"
+                          alt="img"
+                          width={680}
+                          height={450}
+                        />
+                      </div>
 
-                          <div className="text-center mt-5 offset-md">
-                            <img
-                              src="/static/web40.jpg"
-                              className="img-fluid"
-                              alt="picture"
-                              width={1000}
-                              height={700}
-                            />
-                          </div>
-                        </Col>
-                      {/* </Row> */}
+                      <div className="text-center mt-5 offset-md">
+                        <img
+                          src="/static/web40.jpg"
+                          className="img-fluid"
+                          alt="picture"
+                          width={1000}
+                          height={700}
+                        />
+                      </div>
+                    </Col>
+                    {/* </Row> */}
                     {/* </Container> */}
                   </Tab.Pane>
                   {/* //______________________________________________________________________________________________________________________ */}
@@ -244,9 +251,11 @@ function Feed({ data }) {
           </Tab.Container>
         </Container>
         <hr />
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </div>
-</div>
+    </div>
   );
 }
 export default Feed;

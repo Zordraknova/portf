@@ -1,15 +1,19 @@
 .container {
+  background-image: url(../public/static/background.jpg);
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
+   align-items: center;
 }
 
 
+.wrapper{
+  background-image: url(../public/static/background.jpg);
+}
 .main {
+
   background-attachment: scroll;
   margin-top: 7vh;
   padding: 1rem 0;
@@ -23,9 +27,7 @@
 
 .footer {
   text-shadow: 1px 1px 4px #00000080;
-
   border-top: 1px solid #7b0086;
-
   align-items: center;
   font-family: '/assets/Gabriela-Regular.ttf';
   font-size: 1rem;

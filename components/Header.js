@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, NavDropdown, NavLink } from 'react-bootstrap';
 
