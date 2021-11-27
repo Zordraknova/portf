@@ -1,5 +1,5 @@
 .container {
-  background-image: url(../public/static/background.jpg);
+  background-image: url(../public/static/background.png);
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -9,9 +9,7 @@
 }
 
 
-.wrapper{
-  background-image: url(../public/static/background.jpg);
-}
+
 .main {
 
   background-attachment: scroll;
